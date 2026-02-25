@@ -1,2 +1,13 @@
-# word-similarity-analyzer17
-Description
+# Word Similarity Analyzer
+
+Программа группирует похожие по написанию слова в тексте и считает их контекстную частоту.
+
+## Как использовать
+
+1. Подготовьте файл `input.txt` формата:
+   где `K` — размер контекста (например, `2`).
+
+
+2. Запустите программу:
+```bash
+python word_similarity.py < input.txt
